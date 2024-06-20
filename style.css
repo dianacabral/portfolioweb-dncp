@@ -1,12 +1,9 @@
   header {
-    background-color: rgb(136, 131, 131); 
+    background-color: rgb(0, 0, 0); 
     text-align: center;
-    margin-left: 200px; 
-    margin-right: 200px;
-    border: 2px rgb(0, 0, 0) solid; 
-    font-size:x-large; 
+    border: 2px rgb(0, 0, 0) solid;  
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    padding-right: 300px;padding-left: 300px;}
+    font-size: large;}
   section {
     color: rgb(0, 0, 0); 
     background-color: rgb(166, 196, 33); 
@@ -20,14 +17,8 @@
     margin: 20px; 
     padding: 10px; 
     border: 2px black;}
-  h2 {
-    font-size:x-large; color: white;} 
   h1 {
     color: rgb(166, 196, 33);}
-  li {
-    font-size: large;}
-  p {
-    font-size: large;}
   a {
     color: rgb(0, 0, 0);
     text-decoration: none;}
@@ -36,7 +27,7 @@
     margin: 0;
     padding-top: 70px;}
   nav {
-    position: sticky;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
@@ -45,7 +36,7 @@
   }
   .menu-item {
     text-decoration: none;
-    color: gold;
+    color: rgb(3, 3, 3);
     padding: 10px;
     display: inline-block;
   }
